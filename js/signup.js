@@ -1,3 +1,1 @@
-export const Signup = () => {
-  console.log("Signup");
-};
+export const Signup = () => {};
