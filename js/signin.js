@@ -1,6 +1,6 @@
-export const Signup = (data, setToken, main) => {
+export const Signin = (data, setToken, main) => {
   fetch(
-    "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyBzsxsI6PrblFmHvFDTCRNnckkl-DO_LBA",
+    "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyBzsxsI6PrblFmHvFDTCRNnckkl-DO_LBA",
     {
       method: "post",
       body: JSON.stringify(data),
